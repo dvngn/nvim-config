@@ -5,6 +5,8 @@
 :set shiftwidth=4
 :set smarttab
 :set softtabstop=4
+:set smarttab
+:set scrolloff=7
 :set mouse=a
 
 call plug#begin()
@@ -25,6 +27,7 @@ Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
+filetype indent on
 filetype plugin on
 
 nnoremap <leader><space> :nohlsearch<CR>
