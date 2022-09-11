@@ -21,6 +21,8 @@ Plug 'hrsh7th/vim-vsnip'
 
 call plug#end()
 
+nnoremap <leader><space> :nohlsearch<CR>
+
 set completeopt=menu,menuone,noselect
 
 lua <<EOF
