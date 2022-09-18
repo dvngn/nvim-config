@@ -35,6 +35,11 @@ nnoremap <leader><space> :nohlsearch<CR>
 
 set completeopt=menu,menuone,noselect
 
+" Netrw file explorer settings
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 3
+
 lua <<EOF
   -- Set up nvim-cmp.
   local cmp = require'cmp'
