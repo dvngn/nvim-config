@@ -24,6 +24,7 @@ Plug 'hrsh7th/vim-vsnip'
 
 " misc
 Plug 'preservim/nerdcommenter'
+Plug 'machakann/vim-sandwich'
 
 call plug#end()
 
