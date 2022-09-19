@@ -108,4 +108,24 @@ lua <<EOF
   require('lspconfig')['jedi_language_server'].setup {
     capabilities = capabilities
   }
+  require('lspconfig')['rust_analyzer'].setup({
+	settings = {
+		["rust-analyzer"] = {
+			imports = {
+				granularity = {
+					group = "module",
+				},
+				prefix = "self",
+            },
+            cargo = {
+                buildScripts = {
+                    enable = true,
+                },
+            },
+            procMacro = {
+                enable = true
+            },
+		}
+	}
+  })
 EOF
