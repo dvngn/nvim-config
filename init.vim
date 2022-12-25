@@ -128,5 +128,5 @@ lua <<EOF
 		}
 	}
   })
-  require('lspconfig').gopls.setup{}
+  require('lspconfig').gopls.setup{} -- go install golang.org/x/tools/gopls@latest
 EOF
