@@ -8,7 +8,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 Put [init.vim](init.vim) to `~/.config/nvim/init.vim` folder.
 
-Install [ripgrep](https://github.com/BurntSushi/ripgrep)— search tool (required for telescope grep).
+Install [ripgrep](https://github.com/BurntSushi/ripgrep) — search tool (required for telescope grep).
 ```bash
 sudo apt install ripgrep
 ```
