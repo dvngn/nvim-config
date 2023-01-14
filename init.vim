@@ -26,12 +26,22 @@ Plug 'hrsh7th/vim-vsnip'
 Plug 'preservim/nerdcommenter'
 Plug 'machakann/vim-sandwich'
 
+" search
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+
 call plug#end()
 
 filetype indent on
 filetype plugin on
 
 nnoremap <leader><space> :nohlsearch<CR>
+
+" Find files using Telescope command-line sugar.
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 set completeopt=menu,menuone,noselect
 
