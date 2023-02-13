@@ -15,3 +15,8 @@ sudo apt install ripgrep
 ```bash
 sudo dnf install ripgrep
 ```
+
+Install [typescript-server](https://github.com/typescript-language-server/typescript-language-server#installing) — typescript language server
+```bash
+npm install -g typescript-language-server typescript
+```
