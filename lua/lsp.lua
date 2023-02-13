@@ -113,3 +113,7 @@ lspconfig.rust_analyzer.setup({
 lspconfig.gopls.setup{
 	on_attach = on_attach,
 }
+
+lspconfig.tsserver.setup{
+	on_attach = on_attach,
+}
