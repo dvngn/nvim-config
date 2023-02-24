@@ -21,6 +21,9 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/cmp-vsnip'
 	use 'hrsh7th/vim-vsnip'
 
+	-- editorconfig
+	use 'editorconfig/editorconfig-vim'
+
 	-- autopairs
 	use {
 		'windwp/nvim-autopairs',
