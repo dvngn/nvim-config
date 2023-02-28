@@ -39,6 +39,9 @@ return require('packer').startup(function(use)
 		end
 	}
 
+	-- themes
+	use 'sainnhe/sonokai'
+
 	-- misc
 	use 'preservim/nerdcommenter'
 	use 'machakann/vim-sandwich'

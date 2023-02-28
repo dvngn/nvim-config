@@ -117,3 +117,7 @@ lspconfig.gopls.setup{
 lspconfig.tsserver.setup{
 	on_attach = on_attach,
 }
+
+lspconfig.svelte.setup{
+	on_attach = on_attach,
+}
