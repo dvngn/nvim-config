@@ -41,6 +41,7 @@ return require('packer').startup(function(use)
 
 	-- themes
 	use 'sainnhe/sonokai'
+	use 'jacoborus/tender.vim'
 
 	-- misc
 	use 'preservim/nerdcommenter'

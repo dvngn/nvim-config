@@ -9,4 +9,4 @@ vim.opt.smarttab = true
 vim.opt.scrolloff = 7
 vim.opt.mouse = 'a'
 vim.opt.completeopt = 'menu,menuone,noselect'
-vim.cmd[[silent! colorscheme sonokai]]
+vim.cmd[[silent! colorscheme tender]]
