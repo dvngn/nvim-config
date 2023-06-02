@@ -30,3 +30,8 @@ Install [python-lsp-server](https://github.com/python-lsp/python-lsp-black) - py
 ```bash
 pipx install python-lsp-black --include-deps
 ```
+
+[Vim markdown](https://github.com/preservim/vim-markdown)
+Markdown commands:
+- `zR`: opens all folds
+- `zM`: folds everything all the way
