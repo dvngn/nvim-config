@@ -83,9 +83,20 @@ cmp.setup.cmdline(':', {
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 local lspconfig = require('lspconfig')
 
-lspconfig.jedi_language_server.setup {
+--lspconfig.jedi_language_server.setup {
+	--on_attach = on_attach,
+	--capabilities = capabilities
+--}
+
+lspconfig.pylsp.setup{
 	on_attach = on_attach,
-	capabilities = capabilities
+	settings = {
+		pylsp = {
+			plugins = {
+				black = {enabled = true}
+			}
+		}
+	}
 }
 
 lspconfig.rust_analyzer.setup({

@@ -25,3 +25,8 @@ Install [svelte-language-server](https://www.npmjs.com/package/svelte-language-s
 ```bash
 npm install -g svelte-language-server
 ```
+
+Install [python-lsp-server](https://github.com/python-lsp/python-lsp-black) - python lsp server + black formatter
+```bash
+pipx install python-lsp-black --include-deps
+```
