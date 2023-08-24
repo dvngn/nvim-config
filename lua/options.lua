@@ -10,4 +10,7 @@ vim.opt.scrolloff = 7
 vim.opt.mouse = 'a'
 vim.opt.completeopt = 'menu,menuone,noselect'
 vim.opt.guicursor = '' -- block cursor
+vim.opt.ignorecase = true 
+vim.opt.smartcase = true
+vim.opt.hlsearch = false
 vim.cmd[[silent! colorscheme tender]]
