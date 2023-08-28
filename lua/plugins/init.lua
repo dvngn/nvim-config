@@ -48,7 +48,7 @@ return require('packer').startup(function(use)
 	use 'machakann/vim-sandwich'
 	
 	use 'godlygeek/tabular'
-	use 'preservim/vim-markdown'
+	--use 'preservim/vim-markdown'
 
   if packer_bootstrap then
 	require('packer').sync()
