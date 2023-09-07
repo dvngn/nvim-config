@@ -88,6 +88,10 @@ local lspconfig = require('lspconfig')
 	--capabilities = capabilities
 --}
 
+lspconfig.clangd.setup {
+	on_attach = on_attach,
+}
+
 lspconfig.pylsp.setup{
 	on_attach = on_attach,
 	settings = {
