@@ -32,11 +32,8 @@ return require('packer').startup(function(use)
 
 	-- search
 	use {
-		'nvim-telescope/telescope.nvim', tag = '0.1.0',
-		requires = { {'nvim-lua/plenary.nvim'} },
-		config = function ()
-			require('plugins.telescope')
-		end
+		'nvim-telescope/telescope.nvim', tag = '0.1.3',
+		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
 	-- themes
