@@ -24,12 +24,6 @@ return require('packer').startup(function(use)
 	-- editorconfig
 	use { 'editorconfig/editorconfig-vim', commit = '0d54ea863089fb13be423b4aed6cca35f3a5d778' }
 
-	-- autopairs
-	use {
-		'windwp/nvim-autopairs', commit = '748e72c05495a3d30e88a6ef04b21697019a9aa9',
-		config = function() require('nvim-autopairs').setup{} end
-	}
-
 	-- search
 	use {
 		'nvim-telescope/telescope.nvim', commit = '54930e1abfc94409e1bb9266e752ef8379008592',
@@ -44,9 +38,6 @@ return require('packer').startup(function(use)
 	use { 'preservim/nerdcommenter', commit = 'd2e21d417f6c788b11ae3b90d7ac478930dead36' }
 	use { 'machakann/vim-sandwich', commit = 'c5a2cc438ce6ea2005c556dc833732aa53cae21a' }
 	
-	use 'godlygeek/tabular'
-	--use 'preservim/vim-markdown'
-
   if packer_bootstrap then
 	require('packer').sync()
   end
