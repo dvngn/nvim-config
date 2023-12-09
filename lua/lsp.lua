@@ -90,10 +90,12 @@ local lspconfig = require('lspconfig')
 
 lspconfig.clangd.setup {
 	on_attach = on_attach,
+	autostart = false,
 }
 
 lspconfig.pylsp.setup{
 	on_attach = on_attach,
+	autostart = false,
 	settings = {
 		pylsp = {
 			plugins = {
@@ -105,6 +107,7 @@ lspconfig.pylsp.setup{
 
 lspconfig.rust_analyzer.setup({
 	on_attach = on_attach,
+	autostart = false,
 	settings = {
 		["rust-analyzer"] = {
 			imports = {
@@ -127,4 +130,5 @@ lspconfig.rust_analyzer.setup({
 
 lspconfig.gopls.setup{
 	on_attach = on_attach,
+	autostart = false,
 }
