@@ -8,8 +8,8 @@ packages=(
  [neovim/nvim-lspconfig]=2b361e043810d5587d9af0787f8ce40da92ec5e9
  [editorconfig/editorconfig-vim]=0d54ea863089fb13be423b4aed6cca35f3a5d778
  [nvim-telescope/telescope.nvim]=54930e1abfc94409e1bb9266e752ef8379008592
- [sainnhe/sonokai]=*
- [jacoborus/tender.vim]=*
+ [sainnhe/sonokai]=bdce098fc9e7202d3c555e2dc98c755ca1c23835
+ [jacoborus/tender.vim]=7746453a045eaa97dc413a7209268345f33f3243
  [preservim/nerdcommenter]=d2e21d417f6c788b11ae3b90d7ac478930dead36
  [machakann/vim-sandwich]=c5a2cc438ce6ea2005c556dc833732aa53cae21a
 )
