@@ -13,4 +13,4 @@ vim.opt.guicursor = '' -- block cursor
 vim.opt.ignorecase = true 
 vim.opt.smartcase = true
 vim.opt.hlsearch = false
---vim.cmd[[silent! colorscheme tender]]
+vim.cmd[[silent! colorscheme tender]]
